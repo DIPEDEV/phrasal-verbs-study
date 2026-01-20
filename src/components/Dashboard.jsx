@@ -138,6 +138,12 @@ export function Dashboard({ onModeSelect }) {
           <span className="text-slate-300">→</span>
         </Button>
       </motion.div>
+
+      <motion.div variants={item} className="text-center pt-8 pb-4">
+        <p className="text-slate-400 text-sm font-medium">
+          made by Diego Pérez Casillas
+        </p>
+      </motion.div>
     </motion.div>
   );
 }
